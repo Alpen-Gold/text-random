@@ -5,6 +5,7 @@ let textElement = document.querySelector("#text-element");
 let author = document.querySelector("#author");
 let bgBtn = document.querySelectorAll("#bg-btn");
 let copy = document.querySelector(".copy");
+let text = document.querySelector("#text");
 // -----------------------------------------
 
 // error
@@ -15,28 +16,6 @@ let errorHTML = `
 </div>
 `;
 
-// no text error
-let errorTextHTML = `
-<div class="text-center fs-1">
-<i class="fa-solid fa-xmark fa-xl text-danger"></i>
-<span class="text-danger fw-bold">write the text</span>
-</div>
-`;
-
-// Сorrectly text
-let errorСorrectlyHTML = `
-<div class="text-center fs-1">
-<i class="fa-solid fa-xmark fa-xl text-danger"></i>
-<span class="text-danger fw-bold">write the text correctly</span>
-</div>
-`;
-
-// spinner loading
-let loadingHTML = `
-<div class="text-center">
-<span class="loader"></span>
-</div>
-`;
 // url by
 let url = "https://api.quotable.io/random";
 
